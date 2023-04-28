@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ofertas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .ofertas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .oferta {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .btn-comprar {
+            display: inline-block;
+            background-color: #ff9900;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        @media (min-width: 768px) {
+            .oferta {
+                flex: 0 0 45%;
+                max-width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha a melhor oferta para você</h1>
+        <div class="ofertas">
+
+            <div class="oferta">
+                <a href="LINK_PARA_CHECKOUT_OFERTA_2" class="btn-comprar"><img src="https://iili.io/H8655cx.jpg" alt="Oferta 2" style="width: 100%;">
+                </a>
+            </div>
+                        <div class="oferta">
+                <a href="LINK_PARA_CHECKOUT_OFERTA_1" class="btn-comprar"><img src="https://iili.io/H865u6b.jpg" alt="Oferta 1" style="width: 100%;">
+               </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

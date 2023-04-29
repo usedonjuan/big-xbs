@@ -99,7 +99,7 @@ $(document).ready(function onDocumentReady() {
 
 var URL_FINAL = '#';
 
-var nome = ['Luciana Oliveira', 'Marcia Araújo', 'Carolina Dias', 'Martha', 'Aline Campos', 'Luciane R Freire', 'Simone Z', 'Laura Campos', 'Carla Dias', 'Mariana Ruas', 'Jessica Ribeiro', 'Karol Lia'];
+var nome = ['Lucas Oliveira', 'Marcos Araújo', 'Carlos Dias', 'Mateus', 'Alexandre Campos', 'Luciano R Freire', 'Simão Z', 'Lauro Campos', 'Carlos Dias', 'Mario Ruas', 'Jorge Ribeiro', 'Kauê Lima'];
 
 nome.sort(() => Math.random() - 0.5);
 
@@ -111,7 +111,7 @@ if (i == 11) return; // somente 11 eventos serão disparados
 
 if (i == 1 || i == 8 || i == 10) {
 
-toastr.info('<a href="' + URL_FINAL + '">Clique e Reserve sua vaga também!</a> ' + (qtd + (i * 3)) + ' novas alunas compraram nos últimos 30min.', {
+toastr.info('<span> >> </span> ' + (qtd + (i * 3)) + ' novos pedidos nos últimos 30 minutos. Restam poucas unidades.', {
 
 timeOut: 5000,
 

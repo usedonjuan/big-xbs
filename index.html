@@ -113,7 +113,7 @@ if (i == 1 || i == 8 || i == 10) {
 
 toastr.info('<span> >> </span> ' + (qtd + (i * 3)) + ' novos pedidos nos últimos 30 minutos. Restam poucas unidades.', {
 
-timeOut: 5000,
+timeOut: 15000,
 
 positionClass: "toast-bottom-right",
 
@@ -121,7 +121,7 @@ positionClass: "toast-bottom-right",
 
 }
 
-toastr.success('<span> > </span> ' + nome[i++] + ' acabou de comprar.', {
+toastr.success('' + nome[i++] + ' acabou de comprar.', {
 
 timeOut: 5000,
 
@@ -129,7 +129,7 @@ positionClass: "toast-bottom-right",
 
 })
 
-}, 10 * 1000); // a cada 10 segundos
+}, 45 * 1000); // a cada 45 segundos
 
 });
 

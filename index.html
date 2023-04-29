@@ -115,7 +115,22 @@
     
     </div>
     
-    
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+  var progressBar = document.getElementById('progress-bar');
+  var progressContainer = document.getElementById('progress-container');
+  var progressText = document.getElementById('progress-text');
+
+  setTimeout(function() {
+    progressBar.style.width = '100%';
+  }, 100);
+
+  setTimeout(function() {
+    progressContainer.style.display = 'none';
+  }, 625000);
+});
+
+    </script>
     
     
     

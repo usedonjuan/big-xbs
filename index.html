@@ -40,7 +40,32 @@
             border-radius: 5px;
             text-decoration: none;
         }
-  
+        .progress-container {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #4CAF50;
+  transition: width 625s;
+}
+
+.progress-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
     </style>
   
     <!-- Facebook Pixel Code -->
@@ -79,6 +104,15 @@
     <div class="container">
         <h1 style="color: #fff;">A melhor solução validada por especialistas</h1>
 <div id="vid_644b4052b0ab0b0009260cc5" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_644b4052b0ab0b0009260cc5" src="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_644b4052b0ab0b0009260cc5" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_644b4052b0ab0b0009260cc5">var s=document.createElement("script");s.src="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/player.js",s.async=!0,document.head.appendChild(s);</script>
+    
+    
+    
+    <div id="progress-container" class="progress-container">
+  <div id="progress-bar" class="progress-bar"></div>
+  <div id="progress-text" class="progress-text">Carregando a sua oferta</div>
+</div>
+
+    
     </div>
     
     

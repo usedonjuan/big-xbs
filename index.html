@@ -1,197 +1,179 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página VSL</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #000;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 30px;
-            height: 0;
-            overflow: hidden;
-        }
-        .video-container iframe,
-        .video-container object,
-        .video-container embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .btn-comprar {
-            display: inline-block;
-            background-color: #ff9900;
-            color: white;
-            font-size: 18px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .progress-container {
-  position: relative;
-  width: 100%;
-  height: 30px;
-  background-color: #f3f3f3;
-  display: flex;
-  align-items: center;
-}
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #000;
+      }
 
-.progress-bar {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 0%;
-  background-color: #4CAF50;
-  transition: width 625s;
-}
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
 
-.progress-text {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-}
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
 
+      .video-container iframe,
+      .video-container object,
+      .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .btn-comprar {
+        display: inline-block;
+        background-color: #ff9900;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .progress-container {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        background-color: #f3f3f3;
+        display: flex;
+        align-items: center;
+      }
+
+      .progress-bar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 0%;
+        background-color: #4CAF50;
+        transition: width 625s;
+      }
+
+      .progress-text {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+      }
     </style>
-  
     <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '172776249042965');
-  fbq('track', 'PageView');
-
-  setTimeout(function() {
-    fbq('track', 'ViewContent');
-  }, 600000);
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=172776249042965&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-252329153-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-252329153-1');
-</script>
-
-    
-<link rel="preload" href="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/player.js" as="script">
-<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-<link rel="preload" href="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/thumbnail.jpg" as="image">
-<link rel="preload" href="https://cdn.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/644b4041b0ab0b0009260cc4/playlist.m3u8" as="fetch">
-<link rel="dns-prefetch" href="https://cdn.converteai.net">
-<link rel="dns-prefetch" href="https://scripts.converteai.net">
-<link rel="dns-prefetch" href="https://images.converteai.net">
-<link rel="dns-prefetch" href="https://api.vturb.com.br">
-</head>
-<body>
-    <div class="container">
-        <h1 style="color: #fff;">A melhor solução validada por especialistas</h1>
-<div id="vid_644b4052b0ab0b0009260cc5" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_644b4052b0ab0b0009260cc5" src="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_644b4052b0ab0b0009260cc5" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_644b4052b0ab0b0009260cc5">var s=document.createElement("script");s.src="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/player.js",s.async=!0,document.head.appendChild(s);</script>
-    
-    
-    
-    <div id="progress-container" class="progress-container">
-  <div id="progress-bar" class="progress-bar"></div>
-  <div id="progress-text" class="progress-text">Assista ao vídeo enquanto carregamos a sua oferta</div>
-</div>
-
-    
-    </div>
-    
     <script>
-    window.addEventListener('DOMContentLoaded', function() {
-  var progressBar = document.getElementById('progress-bar');
-  var progressContainer = document.getElementById('progress-container');
-  var progressText = document.getElementById('progress-text');
-
-  setTimeout(function() {
-    progressBar.style.width = '100%';
-  }, 100);
-
-  setTimeout(function() {
-    progressContainer.style.display = 'none';
-  }, 625000);
-});
-
+      ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '172776249042965');
+      fbq('track', 'PageView');
+      setTimeout(function() {
+        fbq('track', 'addToCart', {
+          value: 97.00,
+          currency: 'BRL'
+        });
+      }, 600000);
     </script>
-    
-    
-    
-    
-    
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=172776249042965&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-252329153-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-252329153-1');
+    </script>
+    <link rel="preload" href="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/player.js" as="script">
+    <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+    <link rel="preload" href="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/thumbnail.jpg" as="image">
+    <link rel="preload" href="https://cdn.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/644b4041b0ab0b0009260cc4/playlist.m3u8" as="fetch">
+    <link rel="dns-prefetch" href="https://cdn.converteai.net">
+    <link rel="dns-prefetch" href="https://scripts.converteai.net">
+    <link rel="dns-prefetch" href="https://images.converteai.net">
+    <link rel="dns-prefetch" href="https://api.vturb.com.br">
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: #fff;">A melhor solução validada por especialistas</h1>
+      <div id="vid_644b4052b0ab0b0009260cc5" style="position:relative;width:100%;padding: 56.25% 0 0;">
+        <img id="thumb_644b4052b0ab0b0009260cc5" src="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+        <div id="backdrop_644b4052b0ab0b0009260cc5" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
+      </div>
+      <script type="text/javascript" id="scr_644b4052b0ab0b0009260cc5">
+        var s = document.createElement("script");
+        s.src = "https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/644b4052b0ab0b0009260cc5/player.js", s.async = !0, document.head.appendChild(s);
+      </script>
+      <div id="progress-container" class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
+        <div id="progress-text" class="progress-text">Assista ao vídeo enquanto carregamos a sua oferta</div>
+      </div>
+    </div>
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        var progressBar = document.getElementById('progress-bar');
+        var progressContainer = document.getElementById('progress-container');
+        var progressText = document.getElementById('progress-text');
+        setTimeout(function() {
+          progressBar.style.width = '100%';
+        }, 100);
+        setTimeout(function() {
+          progressContainer.style.display = 'none';
+        }, 625000);
+      });
+    </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
-
-<script>
-
-$(document).ready(function onDocumentReady() {
-
-var URL_FINAL = '#';
-
-var nome = ['Lucas Oliveira', 'Marcos Araújo', 'Carlos Dias', 'Mateus', 'Alexandre Campos', 'Luciano R Freire', 'Simão Z', 'Lauro Campos', 'Carlos Dias', 'Mario Ruas', 'Jorge Ribeiro', 'Kauê Lima'];
-
-nome.sort(() => Math.random() - 0.5);
-
-var i = 0, qtd = nome.length;
-
-setInterval(function doThis() {
-
-if (i == 11) return; // somente 11 eventos serão disparados
-
-if (i == 1 || i == 8 || i == 10) {
-
-toastr.info('<span> >> </span> ' + (qtd + (i * 3)) + ' novos pedidos nos últimos 30 minutos. Restam poucas unidades.', {
-
-timeOut: 15000,
-
-positionClass: "toast-bottom-right",
-
-});
-
-}
-
-toastr.success('' + nome[i++] + ' acabou de comprar.', {
-
-timeOut: 5000,
-
-positionClass: "toast-bottom-right",
-
-})
-
-}, 45 * 1000); // a cada 45 segundos
-
-});
-
-</script>
-</body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <script>
+      $(document).ready(function onDocumentReady() {
+        var URL_FINAL = '#';
+        var nome = ['Lucas Oliveira', 'Marcos Araújo', 'Carlos Dias', 'Mateus', 'Alexandre Campos', 'Luciano R Freire', 'Simão Z', 'Lauro Campos', 'Carlos Dias', 'Mario Ruas', 'Jorge Ribeiro', 'Kauê Lima'];
+        nome.sort(() => Math.random() - 0.5);
+        var i = 0,
+          qtd = nome.length;
+        setInterval(function doThis() {
+            if (i == 11) return; // somente 11 eventos serão disparados
+            if (i == 1 || i == 8 || i == 10) {
+              toastr.info(' < span > >> < /span> ' + (qtd + (i * 3)) + ' novos pedidos nos últimos 30 minutos. Restam poucas unidades.', {
+                timeOut: 15000, positionClass: "toast-bottom-right",
+              });
+          }
+          toastr.success('' + nome[i++] + ' acabou de comprar.', {
+            timeOut: 5000,
+            positionClass: "toast-bottom-right",
+          })
+        }, 45 * 1000); // a cada 45 segundos
+      });
+    </script>
+  </body>
 </html>

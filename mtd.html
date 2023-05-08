@@ -1,201 +1,273 @@
 <html lang="pt_BR">
-  <head>
-    <base href="https://guiasecret.space/teste10/">
-    <style>
-      @keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
+	<head>
+		<base href="https://guiasecret.space/teste10/">
+		<style>
+			@keyframes pulse {
+				0% {
+					transform: scale(1);
+				}
 
-        50% {
-          transform: scale(1.2);
-        }
+				50% {
+					transform: scale(1.2);
+				}
 
-        100% {
-          transform: scale(1);
-        }
-      }
+				100% {
+					transform: scale(1);
+				}
+			}
 
-      button {
-        animation-name: pulse;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-      }
-    </style>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="preload" href="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/player.js" as="script">
-    <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-    <link rel="preload" href="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/thumbnail.jpg" as="image">
-    <link rel="preload" href="https://cdn.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/6458667cad718e000969beae/playlist.m3u8" as="fetch">
-    <link rel="dns-prefetch" href="https://cdn.converteai.net">
-    <link rel="dns-prefetch" href="https://scripts.converteai.net">
-    <link rel="dns-prefetch" href="https://images.converteai.net">
-    <link rel="dns-prefetch" href="https://api.vturb.com.br">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mtr50 - MTR</title>
-    <style type="text/css" id="operaUserStyle"></style>
-    <script src="https://guiasecret.space/scripts/inputmask/inputmask.js"></script>
-    <!-- Facebook Pixel Code -->
-    <script>
-      ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '172776249042965');
-      fbq('track', 'PageView');
-      setTimeout(function() {
-        fbq('track', 'addToCart', {
-          value: 97.00,
-          currency: 'BRL'
-        });
-      }, 600000);
-    </script>
-    <noscript>
-      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=172776249042965&ev=PageView&noscript=1" />
-    </noscript>
-    <!-- End Facebook Pixel Code -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-252329153-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+			button {
+				animation-name: pulse;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+			}
+		</style>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Presentación</title>
+		<link rel="stylesheet" href="assets/styles/style.css">
+		<link rel="preload" href="https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/player.js" as="script">
+		<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+		<link rel="preload" href="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/thumbnail.jpg" as="image">
+		<link rel="preload" href="https://cdn.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/6458667cad718e000969beae/playlist.m3u8" as="fetch">
+		<link rel="dns-prefetch" href="https://cdn.converteai.net">
+		<link rel="dns-prefetch" href="https://scripts.converteai.net">
+		<link rel="dns-prefetch" href="https://images.converteai.net">
+		<link rel="dns-prefetch" href="https://api.vturb.com.br">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>mtr50 - MTR</title>
+		<style type="text/css" id="operaUserStyle"></style>
+		<script src="https://guiasecret.space/scripts/inputmask/inputmask.js"></script>
+		<!-- Facebook Pixel Code -->
+		<script>
+			! function(f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function() {
+					n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '172776249042965');
+			fbq('track', 'PageView');
+			setTimeout(function() {
+				fbq('track', 'addToCart', {
+					value: 97.00,
+					currency: 'BRL'
+				});
+			}, 600000);
+		</script>
+		<noscript>
+			<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=172776249042965&ev=PageView&noscript=1" />
+		</noscript>
+		<!-- End Facebook Pixel Code -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-252329153-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'UA-252329153-1');
-    </script>
-    <!-- Taboola Pixel Code -->
-    <script type='text/javascript'>
-      window._tfa = window._tfa || [];
-      window._tfa.push({
-        notify: 'event',
-        name: 'page_view',
-        id: 1553493
-      });
-      ! function(t, f, a, x) {
-        if (!document.getElementById(x)) {
-          t.async = 1;
-          t.src = a;
-          t.id = x;
-          f.parentNode.insertBefore(t, f);
-        }
-      }(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/unip/1553493/tfa.js', 'tb_tfa_script');
-    </script>
-    <!-- End of Taboola Pixel Code -->
-  </head>
-  <body>&#xFEFF; <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const anchors = document.querySelectorAll('a[href*="#"]')
-        for (let anchor of anchors) {
-          anchor.removeAttribute('onclick');
-          anchor.addEventListener('click', function(e) {
-            e.preventDefault()
-            const blockID = anchor.getAttribute('href').substr(1)
-            document.getElementById(blockID).scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
-            })
-          })
-        }
-      });
-    </script>
-    <div class="main-container" id="topo" style="text-align: center;">
-      <div id="vid_6458668db0ab0b0009265b20" style="position:relative;width:100%;padding: 56.25% 0 0;">
-        <img id="thumb_6458668db0ab0b0009265b20" src="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
-        <div id="backdrop_6458668db0ab0b0009265b20" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
-      </div>
-      <script type="text/javascript" id="scr_6458668db0ab0b0009265b20">
-        var s = document.createElement("script");
-        s.src = "https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/player.js", s.async = !0, document.head.appendChild(s);
-      </script>
-    </div>
-    <style>
-      .esconder {
-        display: none
-      }
-    </style>
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function() {
-        /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        var SECONDS_TO_DISPLAY = 1014;
-        var CLASS_TO_DISPLAY = ".esconder";
-        /* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
-        var attempts = 0;
-        var elsHiddenList = [];
-        var elsDisplayed = false;
-        var elsHidden = document.querySelectorAll(CLASS_TO_DISPLAY);
-        var alreadyDisplayedKey = `alreadyElsDisplayed${SECONDS_TO_DISPLAY}`
-        var alreadyElsDisplayed = localStorage.getItem(alreadyDisplayedKey);
-        setTimeout(function() {
-          elsHiddenList = Array.prototype.slice.call(elsHidden);
-        }, 0);
-        var showHiddenElements = function() {
-          elsDisplayed = true;
-          elsHiddenList.forEach((e) => e.style.display = "block");
-          localStorage.setItem(alreadyDisplayedKey, true)
-        }
-        var startWatchVideoProgress = function() {
-          if (typeof smartplayer === 'undefined' || !(smartplayer.instances && smartplayer.instances.length)) {
-            if (attempts >= 10) return;
-            attempts += 1;
-            return setTimeout(function() {
-              startWatchVideoProgress()
-            }, 1000);
-          }
-          smartplayer.instances[0].on('timeupdate', () => {
-            if (elsDisplayed || smartplayer.instances[0].smartAutoPlay) return;
-            if (smartplayer.instances[0].video.currentTime < SECONDS_TO_DISPLAY) return;
-            showHiddenElements();
-          })
-        }
-        if (alreadyElsDisplayed === 'true') {
-          setTimeout(function() {
-            showHiddenElements();
-          }, 100);
-        } else {
-          startWatchVideoProgress()
-        }
-      });
-    </script>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="conteudoReceber firstSct esconder">
-      <div class="prices esconder">
-        <p>de <span style="color: red;">R$473,00</span> por apenas </p>
-        <h2>
-          <b>
-            <p>
-              <b>12x de R$ 11,75</b>
-              <br>ou R$ 117 à vista
-            </p>
-          </b>
-        </h2>
-      </div>
-      <b>
-        <div style="text-align: center; margin-top: 1rem;">
-          <div style="display: inline-block;
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'UA-252329153-1');
+		</script>
+		<!-- Taboola Pixel Code -->
+		<script type='text/javascript'>
+			window._tfa = window._tfa || [];
+			window._tfa.push({
+				notify: 'event',
+				name: 'page_view',
+				id: 1553493
+			});
+			! function(t, f, a, x) {
+				if (!document.getElementById(x)) {
+					t.async = 1;
+					t.src = a;
+					t.id = x;
+					f.parentNode.insertBefore(t, f);
+				}
+			}(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/unip/1553493/tfa.js', 'tb_tfa_script');
+		</script>
+		<!-- End of Taboola Pixel Code -->
+	</head>
+	<body>&#xFEFF; <script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const anchors = document.querySelectorAll('a[href*="#"]')
+				for (let anchor of anchors) {
+					anchor.removeAttribute('onclick');
+					anchor.addEventListener('click', function(e) {
+						e.preventDefault()
+						const blockID = anchor.getAttribute('href').substr(1)
+						document.getElementById(blockID).scrollIntoView({
+							behavior: 'smooth',
+							block: 'start'
+						})
+					})
+				}
+			});
+		</script>
+		<style>
+			.progress-container {
+				position: relative;
+				width: 100%;
+				height: 30px;
+				background-color: #f3f3f3;
+				display: flex;
+				align-items: center;
+			}
+
+			.progress-bar {
+				position: absolute;
+				left: 0;
+				top: 0;
+				height: 100%;
+				width: 0%;
+				background-color: #4CAF50;
+				transition: width 625s;
+			}
+
+			.progress-text {
+				position: absolute;
+				width: 100%;
+				text-align: center;
+				font-weight: bold;
+			}
+		</style>
+		<div class="main-container" id="topo" style="text-align: center;">
+			<h1 style="color: #000;">A melhor solução validada por especialistas</h1>
+			<div id="vid_6458668db0ab0b0009265b20" style="position:relative;width:100%;padding: 56.25% 0 0;">
+				<img id="thumb_6458668db0ab0b0009265b20" src="https://images.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+				<div id="backdrop_6458668db0ab0b0009265b20" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
+			</div>
+			<script type="text/javascript" id="scr_6458668db0ab0b0009265b20">
+				var s = document.createElement("script");
+				s.src = "https://scripts.converteai.net/835c03fb-f457-4411-938a-bdeb52f051d1/players/6458668db0ab0b0009265b20/player.js", s.async = !0, document.head.appendChild(s);
+			</script>
+			<!--Barra de Progresso inicio-->
+			<div id="progress-container" class="progress-container">
+				<div id="progress-bar" class="progress-bar"></div>
+				<div id="progress-text" class="progress-text">Assista ao vídeo enquanto carregamos a sua oferta</div>
+			</div>
+			<!--Barra de Progresso Fim-->
+		</div>
+		<script>
+			window.addEventListener('DOMContentLoaded', function() {
+				var progressBar = document.getElementById('progress-bar');
+				var progressContainer = document.getElementById('progress-container');
+				var progressText = document.getElementById('progress-text');
+				setTimeout(function() {
+					progressBar.style.width = '100%';
+				}, 100);
+				setTimeout(function() {
+					progressContainer.style.display = 'none';
+				}, 1014000);
+			});
+		</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+		<script>
+			$(document).ready(function onDocumentReady() {
+				var URL_FINAL = '#';
+				var nome = ['Lucas Oliveira', 'Marcos Araújo', 'Carlos Dias', 'Mateus', 'Alexandre Campos', 'Luciano R Freire', 'Simão Z', 'Lauro Campos', 'Carlos Dias', 'Mario Ruas', 'Jorge Ribeiro', 'Kauê Lima'];
+				nome.sort(() => Math.random() - 0.5);
+				var i = 0,
+					qtd = nome.length;
+				setInterval(function doThis() {
+					if (i == 11) return; // somente 11 eventos serão disparados
+					if (i == 1 || i == 8 || i == 10) {
+						toastr.info('' + (qtd + (i * 3)) + ' novos pedidos nos últimos 30 minutos. Restam poucas vagas.', {
+							timeOut: 15000,
+							positionClass: "toast-bottom-right",
+						});
+					}
+					toastr.success('' + nome[i++] + ' acabou de comprar.', {
+						timeOut: 5000,
+						positionClass: "toast-bottom-right",
+					})
+				}, 45 * 1000); // a cada 45 segundos
+			});
+		</script>
+		<style>
+			.esconder {
+				display: none
+			}
+		</style>
+		<script type="text/javascript">
+			document.addEventListener("DOMContentLoaded", function() {
+				/* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
+				var SECONDS_TO_DISPLAY = 1014;
+				var CLASS_TO_DISPLAY = ".esconder";
+				/* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
+				var attempts = 0;
+				var elsHiddenList = [];
+				var elsDisplayed = false;
+				var elsHidden = document.querySelectorAll(CLASS_TO_DISPLAY);
+				var alreadyDisplayedKey = `alreadyElsDisplayed${SECONDS_TO_DISPLAY}`
+				var alreadyElsDisplayed = localStorage.getItem(alreadyDisplayedKey);
+				setTimeout(function() {
+					elsHiddenList = Array.prototype.slice.call(elsHidden);
+				}, 0);
+				var showHiddenElements = function() {
+					elsDisplayed = true;
+					elsHiddenList.forEach((e) => e.style.display = "block");
+					localStorage.setItem(alreadyDisplayedKey, true)
+				}
+				var startWatchVideoProgress = function() {
+					if (typeof smartplayer === 'undefined' || !(smartplayer.instances && smartplayer.instances.length)) {
+						if (attempts >= 10) return;
+						attempts += 1;
+						return setTimeout(function() {
+							startWatchVideoProgress()
+						}, 1000);
+					}
+					smartplayer.instances[0].on('timeupdate', () => {
+						if (elsDisplayed || smartplayer.instances[0].smartAutoPlay) return;
+						if (smartplayer.instances[0].video.currentTime < SECONDS_TO_DISPLAY) return;
+						showHiddenElements();
+					})
+				}
+				if (alreadyElsDisplayed === 'true') {
+					setTimeout(function() {
+						showHiddenElements();
+					}, 100);
+				} else {
+					startWatchVideoProgress()
+				}
+			});
+		</script>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<section class="conteudoReceber firstSct esconder">
+			<div class="prices esconder">
+				<p>de <span style="color: red;">R$473,00</span> por apenas </p>
+				<h2>
+					<b>
+						<p>
+							<b>12x de R$ 11,75</b>
+							<br>ou R$ 117 à vista
+						</p>
+					</b>
+				</h2>
+			</div>
+			<b>
+				<div style="text-align: center; margin-top: 1rem;">
+					<div style="display: inline-block;
                 width: fit-content;
                 background-color: #23d404;
                 border: 1px solid #20AA07;
@@ -208,92 +280,92 @@
                 animation-name: pulse;
                 animation-duration: 1s;
                 animation-iteration-count: infinite;">
-            <a style="text-decoration: none; 
+						<a style="text-decoration: none; 
                   color: white;
-                  font-weight: bold;" href="https://pay.kiwify.com.br/q5GcRda?" target="_blank"> Clique aqui para garantir seu acesso </a>
-          </div>
-        </div>
-        <br>
-      </b>
-    </section>
-    <b>
-      <section class="conteudoReceber esconder">
-        <div class="containerContent">
-          <div class="title">
-            <h2>Aqui está tudo o que você receberá...</h2>
-          </div>
-          <div class="alignDivs">
-            <div class="image">
-              <img loading="lazy" src="assets/images/turbinador.png" alt="" height="252" width="382">
-            </div>
-            <div style="margin-top: -43px;">
-              <div class="texts">
-                <div class="texts">
-                  <h3>Método Turbinador de Desempenho</h3>
-                  <p> Guia completo de técnicas e receitas para fazer você se sentir um alfa novamente na cama com sua parceira em questão de dias: </p>
-                  <ol style="text-align: left;">
-                    <li>
-                      <strong>A mistura principal para potencializar o desempenho: você nunca mais terá dificuldades para ter ereções;</strong>
-                    </li>
-                    <li>
-                      <strong>Alguns segredos para que você possa sempre satisfazer sua parceira, levando ela a orgasmos intensos;</strong>
-                    </li>
-                    <li>
-                      <strong>Foco mental: um método simples que aumenta sua ereção a qualquer momento, você nunca mais se sentirá envergonhado por durar pouco;</strong>
-                    </li>
-                    <li>
-                      <strong>Viagra invisível: depois dessa técnica, você nunca mais perderá a ereção durante o sexo, sua autoestima aumentará como nunca;</strong>
-                    </li>
-                    <li>
-                      <strong>Reparador Plus: este guia reparará completamente seus problemas de diabetes, hipertensão e sua saúde sexual em geral.</strong>
-                    </li>
-                  </ol>
-                </div>
-                <span style="color: red; font-size: 24px; text-align: center; display: block; width: 100%;">(Valor R$473)</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="bonus esconder">
-        <div class="containerContent">
-          <div class="textContent">
-            <div class="texts">
-              <div class="texts">
-                <h3>3 Bônus Exclusivos</h3>
-                <p> Garantindo hoje o seu acesso ao Método Turbinador de Desempenho, você assegurará de forma totalmente gratuita os incríveis bônus: </p>
-                <ol style="text-align: left;">
-                  <li>
-                    <strong>Ereções instantâneas;</strong>
-                  </li>
-                  <li>
-                    <strong>Turbina de testosterona de 7 minutos;</strong>
-                  </li>
-                  <li>
-                    <strong>Guia de alimentos para o poder masculino.</strong>
-                  </li>
-                </ol>
-              </div>
-            </div>
-            <div class="image">
-              <img loading="lazy" src="assets/images/bonusimg.png" alt="Imagem do bônus">
-            </div>
-            <span style="color: red; font-size: 24px;">(Valor R$240)</span>
-          </div>
-        </div>
-      </section>
-      <section class="subscribe esconder">
-        <div class="containerContent">
-          <div class="textContent">
-            <span></span>
-            <br>
-            <h2 style="font-size: 20px;">Tudo isso por apenas <b style="font-size: 35px;">
-                <br>12x de R$ 11,75 </b>
-            </h2>
-            <h4> Obtenha acesso completo ao Método Turbinador de Desempenho e aos bônus com DESCONTO apenas hoje </h4>
-          </div>
-          <div style="text-align: center; margin-top: 1rem;">
-            <div style="display: inline-block;
+                  font-weight: bold;" href="https://go.perfectpay.com.br/PPU38CM2084" target="_blank"> Clique aqui para garantir seu acesso </a>
+					</div>
+				</div>
+				<br>
+			</b>
+		</section>
+		<b>
+			<section class="conteudoReceber esconder">
+				<div class="containerContent">
+					<div class="title">
+						<h2>Aqui está tudo o que você receberá...</h2>
+					</div>
+					<div class="alignDivs">
+						<div class="image">
+							<img loading="lazy" src="assets/images/turbinador.png" alt="" height="252" width="382">
+						</div>
+						<div style="margin-top: -43px;">
+							<div class="texts">
+								<div class="texts">
+									<h3>Método Turbinador de Desempenho</h3>
+									<p> Guia completo de técnicas e receitas para fazer você se sentir um alfa novamente na cama com sua parceira em questão de dias: </p>
+									<ol style="text-align: left;">
+										<li>
+											<strong>A mistura principal para potencializar o desempenho: você nunca mais terá dificuldades para ter ereções;</strong>
+										</li>
+										<li>
+											<strong>Alguns segredos para que você possa sempre satisfazer sua parceira, levando ela a orgasmos intensos;</strong>
+										</li>
+										<li>
+											<strong>Foco mental: um método simples que aumenta sua ereção a qualquer momento, você nunca mais se sentirá envergonhado por durar pouco;</strong>
+										</li>
+										<li>
+											<strong>Viagra invisível: depois dessa técnica, você nunca mais perderá a ereção durante o sexo, sua autoestima aumentará como nunca;</strong>
+										</li>
+										<li>
+											<strong>Reparador Plus: este guia reparará completamente seus problemas de diabetes, hipertensão e sua saúde sexual em geral.</strong>
+										</li>
+									</ol>
+								</div>
+								<span style="color: red; font-size: 24px; text-align: center; display: block; width: 100%;">(Valor R$473)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bonus esconder">
+				<div class="containerContent">
+					<div class="textContent">
+						<div class="texts">
+							<div class="texts">
+								<h3>3 Bônus Exclusivos</h3>
+								<p> Garantindo hoje o seu acesso ao Método Turbinador de Desempenho, você assegurará de forma totalmente gratuita os incríveis bônus: </p>
+								<ol style="text-align: left;">
+									<li>
+										<strong>Ereções instantâneas;</strong>
+									</li>
+									<li>
+										<strong>Turbina de testosterona de 7 minutos;</strong>
+									</li>
+									<li>
+										<strong>Guia de alimentos para o poder masculino.</strong>
+									</li>
+								</ol>
+							</div>
+						</div>
+						<div class="image">
+							<img loading="lazy" src="assets/images/bonusimg.png" alt="Imagem do bônus">
+						</div>
+						<span style="color: red; font-size: 24px;">(Valor R$240)</span>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe esconder">
+				<div class="containerContent">
+					<div class="textContent">
+						<span></span>
+						<br>
+						<h2 style="font-size: 20px;">Tudo isso por apenas <b style="font-size: 35px;">
+								<br>12x de R$ 11,75 </b>
+						</h2>
+						<h4> Obtenha acesso completo ao Método Turbinador de Desempenho e aos bônus com DESCONTO apenas hoje </h4>
+					</div>
+					<div style="text-align: center; margin-top: 1rem;">
+						<div style="display: inline-block;
             width: fit-content;
             background-color: #23d404;
             border: 1px solid #20AA07;
@@ -307,23 +379,23 @@
             animation-duration: 1s;
             animation-iteration-count: infinite;
             margin-top: 1rem;">
-              <a style="text-decoration: none;
+							<a style="text-decoration: none;
             color: white;
-            font-weight: bold;" href="https://pay.kiwify.com.br/q5GcRda?" target="_blank"> Clique aqui </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="fbComments photofb esconder">
-        <picture>
-          <source srcset="assets/images/fbMobileTest.webp" media="(max-width: 600px)" alt="" height="2842" width="392">
-          <img loading="lazy" src="assets/images/fbCommentsOg.webp" alt="fbComments">
-        </picture>
-      </section>
-      <br>
-      <section class="fbComments esconder">
-        <div style="text-align: center; margin-top: 1rem;">
-          <div style="display: inline-block;
+            font-weight: bold;" href="https://go.perfectpay.com.br/PPU38CM2084" target="_blank"> Clique aqui </a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="fbComments photofb esconder">
+				<picture>
+					<source srcset="assets/images/fbMobileTest.webp" media="(max-width: 600px)" alt="" height="2842" width="392">
+					<img loading="lazy" src="assets/images/fbCommentsOg.webp" alt="fbComments">
+				</picture>
+			</section>
+			<br>
+			<section class="fbComments esconder">
+				<div style="text-align: center; margin-top: 1rem;">
+					<div style="display: inline-block;
             width: fit-content;
             background-color: #23d404;
             border: 1px solid #20AA07;
@@ -336,112 +408,126 @@
             animation-name: pulse;
             animation-duration: 1s;
             animation-iteration-count: infinite;">
-            <a style="text-decoration: none;
+						<a style="text-decoration: none;
             color: white;
-            font-weight: bold;" href="https://pay.kiwify.com.br/q5GcRda?" target="_blank"> Quero fazer parte agora </a>
-          </div>
-        </div>
-        <br>
-      </section>
-    </b>
-    </div>
-    <b>
-      <div style="text-align: center;">
-        <section class="garantia esconder">
-          <div class="containerContent">
-            <div class="image">
-              <img loading="lazy" src="assets/images/garantia30dias.webp" alt="" height="172" width="222">
-            </div>
-            <div class="textContent">
-              <h3>Método Turbinador de Desempenho</h3>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div style="text-align: center; font-size: 14px; padding: 1rem;">
-        <p>© Copyright 2023 <br>
-        </p>
-      </div>
-      <script>
-        window.onload = function() {
-          var links = document.getElementsByTagName("a");
-          for (var i = 0, n = links.length; i < n; i++) {
-            var href = links[i].href.trim() + (links[i].href.indexOf("?") > 0 ? '&' : '?') + document.location.search.replace('?', '').toString();
-            links[i].href = href;
-          }
-        }
-      </script>
-      <!-- <script src="assets/js/main.js"></script> -->
-      <script src="https://kit.fontawesome.com/a4af1edfda.js" crossorigin="anonymous"></script>
-      <style media="all" id="fa-v4-font-face">
-        <script>let prefix=["https://pay.kiwify.com.br"];
+            font-weight: bold;" href="https://go.perfectpay.com.br/PPU38CM2084" target="_blank"> Quero fazer parte agora </a>
+					</div>
+				</div>
+				<br>
+			</section>
+		</b>
+		</div>
+		<b>
+			<div style="text-align: center;">
+				<section class="garantia esconder">
+					<div class="containerContent">
+						<div class="image">
+							<img loading="lazy" src="assets/images/garantia30dias.webp" alt="" height="172" width="222">
+						</div>
+						<div class="textContent">
+							<h3>Método Turbinador de Desempenho</h3>
+						</div>
+					</div>
+				</section>
+			</div>
+			<style>
+				.small-text {
+					font-size: 10px;
+					color: gray;
+				}
 
-        function getParams() {
-          let t="",
-          e=window.top.location.href,
-          r=new URL(e);
+				a {
+					text-decoration: none;
+					color: blue;
+				}
+			</style>
+			<div style="text-align: center; font-size: 14px; padding: 1rem;">
+				<header>
+					<p class="small-text"> Este site NÃO É do Facebook. Este site NÃO faz parte do Facebook ou Facebook Inc. Além disso, esse site NÃO é endossado pelo Facebook de nenhuma maneira. Boa Dica é uma pessoa jurídica administrada por RB GESTÃO E NEGÓCIOS DIGITAIS. CNPJ: 48.391.219.0001-95. Nós não compartilharemos seus dados com ninguém, você pode cancelar sua inscrição a qualquer momento, e ao se cadastrar você estará concordando com a nossa <a href="https://boadica.online/politica-de-privacidade.html" target="_blank">Política de Privacidade</a> e <a href="https://boadica.online/termos-de-uso.html" target="_blank">Termos de Uso</a>. </p>
+				</header>
+				<p>© Copyright 2023 <br>
+				</p>
+			</div>
+			<script>
+				window.onload = function() {
+					var links = document.getElementsByTagName("a");
+					for (var i = 0, n = links.length; i < n; i++) {
+						var href = links[i].href.trim() + (links[i].href.indexOf("?") > 0 ? '&' : '?') + document.location.search.replace('?', '').toString();
+						links[i].href = href;
+					}
+				}
+			</script>
+			<!-- <script src="assets/js/main.js"></script> -->
+			<script src="https://kit.fontawesome.com/a4af1edfda.js" crossorigin="anonymous"></script>
+			<style media="all" id="fa-v4-font-face">
+				<script>let prefix=["https://pay.kiwify.com.br"];
 
-          if (null !=r) {
-            let a=r.searchParams.get("utm_source"),
-            n=r.searchParams.get("utm_medium"),
-            o=r.searchParams.get("utm_campaign"),
-            m=r.searchParams.get("utm_term"),
-            c=r.searchParams.get("utm_content");
+				function getParams() {
+					let t="",
+					e=window.top.location.href,
+					r=new URL(e);
 
-            - 1 !==e.indexOf("?") && (t=`&sck=$ {
-                a
-              }
+					if (null !=r) {
+						let a=r.searchParams.get("utm_source"),
+						n=r.searchParams.get("utm_medium"),
+						o=r.searchParams.get("utm_campaign"),
+						m=r.searchParams.get("utm_term"),
+						c=r.searchParams.get("utm_content");
 
-              |$ {
-                n
-              }
+						- 1 !==e.indexOf("?") && (t=`&sck=$ {
+								a
+							}
 
-              |$ {
-                o
-              }
+							|$ {
+								n
+							}
 
-              |$ {
-                m
-              }
+							|$ {
+								o
+							}
 
-              |$ {
-                c
-              }
+							|$ {
+								m
+							}
 
-              `),
-            console.log(t)
-          }
+							|$ {
+								c
+							}
 
-          return t
-        }
+							`),
+						console.log(t)
+					}
 
-         ! function() {
-          var t=new URLSearchParams(window.location.search);
+					return t
+				}
 
-          t.toString() && document.querySelectorAll("a").forEach(function(e) {
-              for (let r=0; r < prefix.length; r++) - 1 !==e.href.indexOf(prefix[r]) && (-1===e.href.indexOf("?") ? e.href +="?"+ t.toString() + getParams() : e.href +="&"+ t.toString() + getParams())
-            }
+				 ! function() {
+					var t=new URLSearchParams(window.location.search);
 
-          )
-        }
+					t.toString() && document.querySelectorAll("a").forEach(function(e) {
+							for (let r=0; r < prefix.length; r++) - 1 !==e.href.indexOf(prefix[r]) && (-1===e.href.indexOf("?") ? e.href +="?"+ t.toString() + getParams() : e.href +="&"+ t.toString() + getParams())
+						}
 
-        ();
+					)
+				}
 
-        </script><script>function addinputmask() {
-          var tels=document.querySelectorAll('input[type="tel"]');
+				();
 
-          var im=new Inputmask( {
-              mask: '+7(\\999)999-99-99',
-              showMaskOnHover: true,
-              showMaskOnFocus: true
-            }
+				</script><script>function addinputmask() {
+					var tels=document.querySelectorAll('input[type="tel"]');
 
-          );
+					var im=new Inputmask( {
+							mask: '+7(\\999)999-99-99',
+							showMaskOnHover: true,
+							showMaskOnFocus: true
+						}
 
-          for (var i=0; i <tels.length; i++) {
-            im.mask(tels[i]);
-          }
-        }
+					);
 
-        document.addEventListener('DOMContentLoaded', addinputmask, false);
-        </script></b><script type="text/javascript"src="chrome-extension://aefiepimkogajhddmhcekceihikjcabd/injected.js"></script></body><div id="detach-button-host"style="top: 115px; left: 159px;"></div></html>
+					for (var i=0; i <tels.length; i++) {
+						im.mask(tels[i]);
+					}
+				}
+
+				document.addEventListener('DOMContentLoaded', addinputmask, false);
+				</script></b><script type="text/javascript"src="chrome-extension://aefiepimkogajhddmhcekceihikjcabd/injected.js"></script></body><div id="detach-button-host"style="top: 115px; left: 159px;"></div></html>

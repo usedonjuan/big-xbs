@@ -82,9 +82,23 @@
   gtag('config', 'UA-252329153-1');
 </script>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.3/mobile-detect.min.js"></script>
 </head>
 <body>
+    <script type="text/javascript">
+    var md = new MobileDetect(window.navigator.userAgent);
+
+    fetch('https://geolocation-db.com/json/')
+    .then(response => response.json())
+    .then(data => {
+        var country = data.country_name;
+
+        if (md.mobile() == null || country != "Brazil") {
+            window.location.href = "https://www.outrosite.com";
+        }
+    })
+    .catch(error => console.error(error));
+</script>
     <div class="container">
         <h1>Escolha a melhor oferta para você</h1>
         <div class="ofertas">
